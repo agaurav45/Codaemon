@@ -1,0 +1,37 @@
+.inner-body {
+	background: #fff;
+    padding: 20px;
+    position: relative;
+    font-size: 14px;
+	text-align:left;
+	color: #494949;
+}
+.inner-body .table thead {
+	background: #337ab7;
+    color: #fff;
+}
+.inner-body .table thead th {
+	min-width: 120px;
+}
+.inner-body .progress, .inner-body h4 {
+	clear:both;
+	margin: 16px;
+}
+.inner-body input, .inner-body .btn {	
+    height: 40px;
+    line-height: 40px;
+}
+.inner-body .btn {
+	background: #337ab7;
+	margin-top: 25px;
+}
+button.btn:focus, button.btn:active:focus, button.btn.active:focus {
+	background: #337ab7;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+	.inner-body .table thead th {
+		min-width: auto;
+	}
+  
+}
